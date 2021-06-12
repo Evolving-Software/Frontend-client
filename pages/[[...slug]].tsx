@@ -1,9 +1,9 @@
 import ErrorPage from "next/error"
-import { getPageData, fetchAPI, getGlobalData } from "utils/api"
-import Sections from "@/components/sections"
-import Seo from "@/components/elements/seo"
+import { getPageData, fetchAPI, getGlobalData } from "../utils/api"
+import Sections from "../components/sections"
+import Seo from "../components/elements/seo"
 import { useRouter } from "next/router"
-import Layout from "@/components/layout"
+import Layout from "../components/layout"
 
 // The file is called [[...slug]].js because we're using Next's
 // optional catch all routes feature. See the related docs:

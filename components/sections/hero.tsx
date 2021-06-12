@@ -2,7 +2,7 @@ import Markdown from "react-markdown";
 import ButtonLink from "../elements/button-link";
 import Image from "../elements/image";
 import { getButtonAppearance } from "utils/button";
-import HeroForm from '../../components/elements/forms/heroForm'
+import HeroForm from '../elements/forms/heroForm'
 
 const Hero = ({ data }) => {
   return (
