@@ -20,7 +20,7 @@ const Navbar = ({ navbar, pageContext }) => {
   return (
     <>
       {/* The actual navbar */}
-      <nav className="border-gray-200 py-6 sm:py-2">
+      <nav className="border-gray-200 py-6 sm:py-2  bg-gray-900 text-white ">
         <div className="container flex flex-row items-center justify-between">
           {/* Content aligned to the left */}
           <div className="flex flex-row items-center">
@@ -64,7 +64,7 @@ const Navbar = ({ navbar, pageContext }) => {
               <div className="hidden md:block">
                 <ButtonLink
                   button={navbar.button}
-                  appearance={getButtonAppearance(navbar.button.type, "light")}
+                  appearance={getButtonAppearance(navbar.button.type, "dark")}
                   compact
                 />
               </div>

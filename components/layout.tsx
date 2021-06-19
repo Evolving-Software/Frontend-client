@@ -10,7 +10,7 @@ const Layout = ({ children, global, pageContext }) => {
   return (
     <div className="flex flex-col justify-between min-h-screen">
       {/* Aligned to the top */}
-      <div className="flex-1 bg-gray-900 text-white">
+      <div className="flex-1">
         {notificationBanner && bannerIsShown && (
           <NotificationBanner
             data={notificationBanner}
@@ -21,7 +21,7 @@ const Layout = ({ children, global, pageContext }) => {
           navbar={navbar}
           pageContext={pageContext}
         />
-        <div>{children}</div>
+        <main>{children}</main>
       </div>
       {/* Aligned to the bottom */}
       <Footer footer={footer} />
